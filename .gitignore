@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 大型資料（語料、分片、計數結果，約 15 GB）
+data/shards/
+data/counts/
+data/wiki_article_list_2023_tra.json
+*.npz
+
+# jieba 詞典（8 MB，可重新下載；若想一起提交就刪掉這行）
+data/dict.txt.big
+
+# Office 暫存檔
+~$*
+
+# 編輯器 / 系統
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
